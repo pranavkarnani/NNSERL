@@ -1,9 +1,9 @@
 # Steps to run
 
 1. Clone the repository
-2. Run this bash command to download the data: bash STS_NNCLR/get_transfer_data.sh
-3. Install the requirements: pip3 install -r STS_NNCLR/requirements.txt
-4. Move into the directory: cd STS_NNCLR
+2. Run this bash command to download the data: bash NNSERL/get_transfer_data.sh
+3. Install the requirements: pip3 install -r NNSERL/requirements.txt
+4. Move into the directory: cd NNSERL
 5. Clone the transformers repository: https://github.com/huggingface/transformers.git
 6. Replace the modeling_bert.py file: cp ./modeling_bert.py ./transformers/src/transformers/models/bert/modeling_bert.py
 7. Install the transformers package pip3 install -e .
