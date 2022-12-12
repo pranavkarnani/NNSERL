@@ -10,4 +10,4 @@
 7. Run the file: python3 nnserl.py
 
 
-To change any hyperparameters, please make changes to the config dictionary in the sts_nnclr.py
+To change any hyperparameters, please make changes to the config dictionary in the nnserl.py
