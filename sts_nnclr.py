@@ -30,7 +30,7 @@ config = {
     'augmentation_type_2': 'cutoff',
     'BATCH_SIZE': 96,
     'models': os.getcwd() + '/model',
-    'data_path': './downstream',
+    'data_path': '../downstream',
     'cutoff_direction': 'column',
     'cutoff_rate': 0.2,
     'lr': 5e-7,
