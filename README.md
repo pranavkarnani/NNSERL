@@ -7,7 +7,7 @@
 5. Clone the transformers repository: https://github.com/huggingface/transformers.git
 6. Replace the modeling_bert.py file: cp ./modeling_bert.py ./transformers/src/transformers/models/bert/modeling_bert.py
 7. Install the transformers package pip3 install -e .
-7. Run the file: python3 sts_nnclr.py
+7. Run the file: python3 nnserl.py
 
 
 To change any hyperparameters, please make changes to the config dictionary in the sts_nnclr.py
